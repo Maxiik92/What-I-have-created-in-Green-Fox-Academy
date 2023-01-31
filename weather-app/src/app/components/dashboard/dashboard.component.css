@@ -1,0 +1,15 @@
+search-bar {
+  margin: 1vh;
+  height: auto;
+  width: 45%;
+}
+
+weather-tab {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  box-sizing: border-box;
+  object-fit: contain;
+  margin-left: 27.5%;
+  gap: 1vh;
+}

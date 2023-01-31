@@ -1,0 +1,18 @@
+<div
+  class="tab"
+  *ngFor="let weather of weatherList"
+  routerLink="{{ weather.city }}"
+>
+  <div class="where">
+    <h1>{{ weather.city }}</h1>
+    <h2>{{ weather.state }}</h2>
+  </div>
+  <div class="how">
+    <p>{{ weather.temperature }}</p>
+  </div>
+  <img
+    src="{{ weather.imgSrc }}"
+    alt="{{ weather.description }}"
+    title="{{ weather.description }}"
+  />
+</div>

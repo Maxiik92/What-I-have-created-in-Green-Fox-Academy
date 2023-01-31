@@ -1,0 +1,14 @@
+<form (ngSubmit)="onClick()">
+  <label for="search">Whats the weather in </label>
+  <input
+    id="search"
+    #searchInput
+    placeholder=""
+    type="text"
+    [(ngModel)]="searchValue"
+    [ngModelOptions]="{ standalone: true }"
+  />
+  <button type="submit" [disabled]="searchValue === ''" (click)="search()">
+    Search
+  </button>
+</form>

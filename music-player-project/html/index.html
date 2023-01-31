@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/795c02e5c2.js" crossorigin="anonymous"></script>
+  <title>Music Player</title>
+</head>
+
+<body>
+  <div id="player">
+    <div id="logoAndNotif">
+      <div id="logo"><div id="flame">.</div></div>
+      <div id="notificationBox"><span id="notification"></span></div>
+    </div>
+    <div id="albumImg"><img class="cover" src="./assets/music-placeholder.png"></div>
+    <div id="currentPlaying">
+      <div id="header">
+        <h1 id="albumName">Album name</h1>
+        <h3 id="songAuthor">Song Author</h3>
+      </div>
+      <div class="selector hide"></div>
+      <div id="curPlayButtons">
+        <i id="addToPlaylist"  title="Add to Playlist"class="fa-solid fa-plus"></i>
+        <i id="addToFavourites" title="Add to Favourites"class="fa-solid fa-star"></i>
+      </div>
+    </div>
+    <div id="playlist">
+      <div id="mainList">
+        Playlists
+        <button id="addPlaylist">+</button>
+      </div>
+      <div><p id="allTracks" data-playlist_id = "1">All Tracks</p></div>
+      <div><p id="favourites" data-playlist_id = "2">Favourites</p></div>
+      <div id="ownPlaylists"></div>
+    </div>
+    <div id="tracks" ></div>
+    <div id="controlPanel">
+      <audio src="" id="audio"></audio>
+      <div id="playback">
+        <button id="previous" type="button"></button>
+        <button id="play" class='play' type="button"></button>
+        <button id="next" type="button"></button>
+      </div>
+      <div id="range">
+        <p id="remainingTime">00:00</p>
+        <input type="range" min="0" max="100" id="seekbar" value="0">
+        <p id="totalTime">00:00</p>
+      </div>
+      <div id="toggles">
+        <button id="shuffle" data-shuffle="off"></button>
+        <button id="volume" data-volume="off"></button>
+        <input type="range" min="0" max="100" step="1" id="volumeBar">
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+  <script src="./control.js"></script>
+</body>
+
+</html>

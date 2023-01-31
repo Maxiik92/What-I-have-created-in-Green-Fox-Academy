@@ -1,0 +1,12 @@
+<h1>{{ forecastData?.city }}</h1>
+<div class="days">
+  <div class="bigBlock" *ngFor="let day of forecastData?.days">
+    <div class="block">
+      <img src="{{ day.imgSrc }}" alt="{{ day.description }}" />
+      <p class="temp">{{ day.temperature }}</p>
+      <p>{{ day.description }}</p>
+    </div>
+    <p>{{ day.day }}</p>
+  </div>
+</div>
+<a routerLink="/dashboard"> Go Back</a>

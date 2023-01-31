@@ -1,0 +1,14 @@
+h1 {
+  font-size: 10vh;
+  margin-top: 20vh;
+}
+
+a {
+  margin-top: 10vh;
+  display: block;
+  text-align: center;
+}
+
+a:visited {
+  color: black;
+}
