@@ -32,7 +32,7 @@ https://github.com/Maxiik92/What-i-have-created-in-Green-Fox-Academy/tree/main/r
 <br>
 Week 10
 <br>
-Last project of orientation phase, express router, Dom manipulation, MySQL,music metadata
+Last project of orientation phase, express router, Dom manipulation, MySQL, music metadata
 <br>
 App searches for mp3 files in given directory and automatically inserts paths to db so the player can find them.
 User is able to create own playlists, mark track as favourite and than its stored in not deletable playlist "favourites".
@@ -48,7 +48,7 @@ Week 11
 <br>
 One week long project, learning how Angular works, TypeScript, openweather.com 3rd party API
 <br>
-On landing page it shows 5 hardcoded cities with their current weather conditions.
+On landing page is showed 5 hardcoded cities with their current weather conditions.
 After inserting valid city name in the input field the last city will be poped out, list will move and inserted city will be in first place.
 If the city is already in the list then it will jump to the first place and the list will move as before.
 On click on the "City tab" the view changes for 5 day forecast. There is also possible to insert city and show the values for forecast.
