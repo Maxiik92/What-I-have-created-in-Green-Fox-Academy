@@ -1,6 +1,6 @@
 # What-i-have-created-in-Green-Fox-Academy
 
-These are some projects that i was working on when i participated superintensive Fullstack developer course on Green Fox Academy
+These are some projects that I was working on when I participated superintensive Fullstack developer course on Green Fox Academy
 
 <b>Gallery project</b>
 <br>
