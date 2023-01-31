@@ -7,6 +7,7 @@ These are some projects that I was working on when I participated superintensive
 Week 06 - Day 05
 <br>
 DOM manipulation, JavaScript, CSS
+<br>
 Interactive gallery, hardcoded background color changer, on hover effects
 <br>
 https://github.com/Maxiik92/What-i-have-created-in-Green-Fox-Academy/tree/main/gallery-project
@@ -18,7 +19,9 @@ https://github.com/Maxiik92/What-i-have-created-in-Green-Fox-Academy/tree/main/g
 Week 08 - Day 05
 <br>
 Express router, Dom manipulation, JavaScript, MySQL
+<br>
 First "login" attempt.
+<br>
 User can register, login, create posts, vote on posts that he did not created and modify or remove own created posts.
 <br>
 https://github.com/Maxiik92/What-i-have-created-in-Green-Fox-Academy/tree/main/reddit-clone-project
@@ -30,9 +33,10 @@ https://github.com/Maxiik92/What-i-have-created-in-Green-Fox-Academy/tree/main/r
 Week 10
 <br>
 Last project of orientation phase, express router, Dom manipulation, MySQL,music metadata
+<br>
 App searches for mp3 files in given directory and automatically inserts paths to db so the player can find them.
 User is able to create own playlists, mark track as favourite and than its stored in not deletable playlist "favourites".
-User is able to repeat tracks, turn shuffle on, adjust volume, insert and delete songs from playlist
+User is able to repeat tracks, turn shuffle on, adjust volume, insert and delete songs from playlist.
 <br>
 https://github.com/Maxiik92/What-i-have-created-in-Green-Fox-Academy/tree/main/music-player-project
 
@@ -43,6 +47,7 @@ https://github.com/Maxiik92/What-i-have-created-in-Green-Fox-Academy/tree/main/m
 Week 11
 <br>
 One week long project, learning how Angular works, TypeScript, openweather.com 3rd party API
+<br>
 On landing page it shows 5 hardcoded cities with their current weather conditions.
 After inserting valid city name in the input field the last city will be poped out, list will move and inserted city will be in first place.
 If the city is already in the list then it will jump to the first place and the list will move as before.
