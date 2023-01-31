@@ -9,7 +9,7 @@ Week 06 - Day 05
 DOM manipulation, JavaScript, CSS
 Interactive gallery, hardcoded background color changer, on hover effects
 <br>
-https://github.com/green-fox-academy/Greenfox_Safest_Tomas_Max/tree/master/week-06/day-05/gallery
+https://github.com/Maxiik92/What-i-have-created-in-Green-Fox-Academy/tree/main/gallery-project
 
 <img src="./assets/gallery-printscreen.png" style="border: 2px solid grey; margin-bottom: 10px; width: 75%">
 
@@ -21,7 +21,7 @@ Express router, Dom manipulation, JavaScript, MySQL
 First "login" attempt.
 User can register, login, create posts, vote on posts that he did not created and modify or remove own created posts.
 <br>
-https://github.com/green-fox-academy/Greenfox_Safest_Tomas_Max/tree/master/week-08/day-05
+https://github.com/Maxiik92/What-i-have-created-in-Green-Fox-Academy/tree/main/reddit-clone-project
 
 <img src="./assets/reddit-clone-printscreen.png" style="border: 2px solid grey; margin-bottom: 10px; width: 75%">
 
@@ -34,7 +34,7 @@ App searches for mp3 files in given directory and automatically inserts paths to
 User is able to create own playlists, mark track as favourite and than its stored in not deletable playlist "favourites".
 User is able to repeat tracks, turn shuffle on, adjust volume, insert and delete songs from playlist
 <br>
-https://github.com/green-fox-academy/Greenfox_Safest_Tomas_Max/tree/master/week-11/weather-app
+https://github.com/Maxiik92/What-i-have-created-in-Green-Fox-Academy/tree/main/music-player-project
 
 <img src="./assets/music-player-printscreen.png" style="border: 2px solid grey; margin-bottom: 10px; width: 75%">
 
@@ -48,7 +48,7 @@ After inserting valid city name in the input field the last city will be poped o
 If the city is already in the list then it will jump to the first place and the list will move as before.
 On click on the "City tab" the view changes for 5 day forecast. There is also possible to insert city and show the values for forecast.
 <br>
-https://github.com/green-fox-academy/Greenfox_Safest_Tomas_Max/tree/master/week-11/weather-app
+https://github.com/Maxiik92/What-i-have-created-in-Green-Fox-Academy/tree/main/weather-app
 
 <div style="display:flex">
 <img src="./assets/weather-app-1-printscreen.png" style="border: 2px solid grey; margin-bottom: 10px; width:30%;">
